@@ -22,37 +22,37 @@ class App extends Component {
             rel="noopener noreferrer"
           >
             Hãy cuộn xuống dưới ở màn hình kết quả<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
-            Yêu anh Thịnh<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
+            test<br />
           </a>
           <FadingIn />
-        </header>      
+        </header>
       </div>
     );
   }

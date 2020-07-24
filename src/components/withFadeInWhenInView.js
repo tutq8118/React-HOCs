@@ -1,10 +1,19 @@
 import React from 'react';
+import { useInView } from 'react-intersection-observer';
+import './withFadeInWhenInView.css';
 
 const withFadeInWhenInView = (WrappedComponent) => {
-  return 'not implemented yet';
-  // Viết code ở đây sao cho khi người dùng cuộn chuột trên trang,
-  // và WrappedComponent đi từ ngoài vào trong cửa sổ trình duyệt 
-  // thì nó sẽ hiện ra từ từ với animation speed là 2s (hiệu ứng fadein)
+  function HOC() {
+    const [ref, inView] = useInView({
+      threshold: 0,
+    });
+    return (
+      <div ref={ref} className={inView ? 'animate__animated animate__fadeInRight' : 'animate__animated'}>
+        <WrappedComponent />
+      </div>
+    );
+  }
+  return HOC;
 }
 
 export default withFadeInWhenInView;
